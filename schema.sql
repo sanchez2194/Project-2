@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS "samesong";
+CREATE DATABASE "samesong";

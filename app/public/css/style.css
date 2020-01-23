@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(./images/black-and-white-music-notes-wallpaper-wallpaper-hdcutepics-com.jpg);;
+    background-size: cover;
+}
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+ #jumbotron {
+    background-image: linear-gradient(to left bottom, rgba(252, 119, 31, 0.8),rgb(8, 52, 175, 0.8)), url(../images/5e230317234eb.png);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  font-size: 60px;
+    font-family: 'Futura';
+color: #fff;
+text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #FF0080, 0 0 30px #FF0080, 0 0 40px #FF0080, 0 0 55px #FF0080, 0 0 75px #FF0080;
+text-align: center;
+  }
+  .heading-primary{
+    color: #FFFFFF;
+    text-transform: uppercase;
+    backface-visibility: hidden;
+    margin-bottom: 40px;
+  }
+  h1{
+    display: block;
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 15px;
+    animation-name: moveInLeft;
+    animation-duration: 3s;
+  
+  }
+  .heading-primary--sub { 
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 15px;
+  }
+  
+  .form-control{
+    margin: auto;
+      display:inline-block;
+      width:48%;
+      vertical-align: top;
+    }
+  
+  }
+  .form-control :focus{
+    background-color: lightblue;
+  }
+  @keyframes moveInLeft {
+    0% {
+      opacity: 0;
+      transform: translate(-100px);
+    }
+    15% {
+      transform: translate(50px)
+    }
+    40% {
+      transform: translate(-30px)
+    }
+    70% {
+      transform: translate(15px)
+    }
+    100% {
+      opacity: 1;
+      transform: translate(0);
+    }
+  
+  }
+  @keyframes moveInVert{
+  
+  }
+  .form__button-group{
+    margin: auto;
+    position: inherit;
+    color: rgb(40, 187, 187);
+    vertical-align: center;
+  }
+  .btn{
+    background-color: rgb(26, 81, 133);
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px,;
+  }
+  
+  }
+  .list-group-item {
+    line-height: 2.5;
+  }
+
+  .card-header { 
+    display: inline-block;
+    font-weight: 700;
+    background-image: linear-gradient(to left bottom, rgba(252, 119, 31, 0.8),rgb(8, 52, 175, 0.8)), url(../images/5e230317234eb.png);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
